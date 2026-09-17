@@ -1,0 +1,21 @@
+{
+  "name": "sky-king-ofc-api-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SKY KING OFC authentication and activation-key API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "init-db": "node src/init-db.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "helmet": "^8.1.0"
+  }
+}
